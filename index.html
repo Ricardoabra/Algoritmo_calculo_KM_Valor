@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Algorítimo Calculo Km preço</title>
+</head>
+
+<body>
+    <h1>LOCADORA DE VEÍCULOS</h1>
+    <h4>Digite abaixo a quilometragem rodada e a quantidade de dias para saber o preço que você terá que pagar.</h4>
+    <form id="formLocadora">
+        <label for="inputKm">Quilometragem rodada:</label>
+        <input type="number" id="inputKm" required>
+        <label for="inputDias">Quantidade de dias:</label>
+        <input type="number" id="inputDias" required>
+        <button type="button" onclick="calculatePrice()">Calcular</button>
+    </form>
+    <div id="resultado"></div>
+    <script src="script.js"></script>
+</body>
+
+</html>
